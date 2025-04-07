@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxora - Tienda de Zapatos</title>
+    <link rel="stylesheet" href="zapatos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Luxora</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Tienda</a></li>
+          <li><a href="#">Contacto</a></li>
+          <li>
+            <a href="#" id="carrito-btn"
+              >🛒 Carrito (<span id="cantidad-carrito">0</span>)</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="slider-container">
+      <div class="slider">
+        <div class="slide">
+          <img src="img/slider1.jpg" alt="Oferta de zapatos deportivos" />
+          <div class="slide-text"></div>
+        </div>
+        <div class="slide">
+          <img src="img/slider2.jpg" alt="Nueva colección" />
+          <div class="slide-text"></div>
+        </div>
+        <div class="slide">
+          <img src="img/slider3.jpg" alt="Envío gratis" />
+          <div class="slide-text"></div>
+        </div>
+      </div>
+      <button class="slider-btn prev">❮</button>
+      <button class="slider-btn next">❯</button>
+      <div class="slider-dots"></div>
+    </div>
+
+    <section id="productos">
+      <!-- Productos cargados con JavaScript -->
+    </section>
+
+    <aside id="carrito" class="oculto">
+      <h2>Carrito de Compras</h2>
+      <div id="contenido-carrito"></div>
+      <button id="vaciar-carrito">Vaciar Carrito</button>
+    </aside>
+
+    <section class="info-section">
+      <div class="info-container">
+        <div class="info-item">
+          <img src="img/envio.png" alt="Envío Gratis" class="info-icon" />
+          <h3>Envío Gratis</h3>
+          <p>Envios gratis a todo el pais en cualquier modelo</p>
+        </div>
+        <div class="info-item">
+          <img src="img/garantia.png" alt="Garantía" class="info-icon" />
+          <h3>Garantía</h3>
+          <p>30 días de garantía en todos los productos</p>
+        </div>
+        <div class="info-item">
+          <img src="img/pago.png" alt="Pago Seguro" class="info-icon" />
+          <h3>Pago Seguro</h3>
+          <p>Pago por medios electronicos</p>
+        </div>
+        <div class="info-item">
+          <img src="img/soporte.png" alt="Soporte" class="info-icon" />
+          <h3>Soporte 24/7</h3>
+          <p>Atención personalizada</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Sobre Nosotros</h3>
+        <p>
+          Luxora es tu destino para encontrar los mejores tenis con calidad y
+          estilo. Ofrecemos una amplia selección de calzado para todos los
+          gustos y ocasiones.
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <ul>
+          <li><i class="icon-location"></i> Calle 47b sur # 21-55, Bogota</li>
+          <li><i class="icon-phone"></i> +573028472620</li>
+          <li><i class="icon-mail"></i> luxora497@gmail.com</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Horario</h3>
+        <ul>
+          <li>Lunes - Viernes: 9:00 - 18:00</li>
+          <li>Sábado: 10:00 - 18:00</li>
+          <li>Domingo: Cerrado</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Síguenos</h3>
+        <p>Facebook Luxora.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="icon-facebook"></i></a>
+          <a href="#" class="social-link"><i class="icon-instagram"></i></a>
+          <a href="#" class="social-link"><i class="icon-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Luxora - Todos los derechos reservados</p>
+    </div>
+  </footer>
+</html>
